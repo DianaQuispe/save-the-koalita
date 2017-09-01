@@ -2,3 +2,76 @@
 wood brown: A89F68;
 army green: 41521F;
 */
+
+* {
+    margin: 0 auto;
+}
+
+header {
+    position: relative;
+    height: 1000px;
+    width: 100%;
+    background-position: center;
+    background-image: url(../docs/img/portada.jpg);
+    background-size: cover;
+}
+
+header nav ul {
+    line-height: 70px;
+    padding-right: 80px;
+}
+
+.col-md-6 ul {
+    list-style: none;
+}
+
+.col-md-6 ul a {
+    right: 3px;
+    position: relative;
+    color: #fff;
+    list-style: none;
+}
+
+p {
+    color: white;
+}
+
+.btn {
+    background-color: aliceblue;
+    color: aliceblue;
+}
+
+header .action h1 {
+    color: #fff;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.action {
+    top: 45%;
+    position: relative;
+    height: 40%;
+    width: 26%;
+    margin: 2%
+}
+
+.foundation {
+    height: 800px;
+    width: 100%;
+    position: relative;
+}
+
+.col-md-2 img {
+    top: 5%;
+    left: 6%;
+    position: inherit;
+    padding: 4%;
+}
+
+.col-md-2 div {
+    top: 5%;
+    left: 6%;
+    position: inherit;
+    padding: 4%;
+}
