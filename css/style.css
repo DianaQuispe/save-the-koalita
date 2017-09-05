@@ -1,106 +1,172 @@
-/*
-wood brown: A89F68;
-army green: 41521F;
-*/
 
 * {
-    margin: 0 auto;
+    font-family: 'Bree Serif', serif;
 }
-
-header {
-    position: relative;
-    height: 1000px;
-    width: 100%;
-    background-position: center;
-    background-image: url(../docs/img/portada.jpg);
-    background-size: cover;
+nav div  {
+    background-color: transparent;
 }
-
-.col-md-6 ul a {
-    margin-top: 4%;
-    padding: 4%;
-    list-style: none;
-    right: 3px;
-    position: relative;
-    color: #fff;
-    list-style: none;
-}
-
-p {
+.nav li {
     color: white;
 }
+.container-fluid, .navbar {
+    background-color: transparent;
+}
+.container{
 
-.btn {
-    background-color: aliceblue;
-    color: aliceblue;
+    width: 100%;
+    height: 100%;
 }
 
-header .action h1 {
-    color: #fff;
-    font-size: 2em;
+#koala{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: url(../docs/img/portada.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+
+}
+
+
+.saveKoala {
+    color: white;
+    position: absolute;
+    width: 30%;
+    top: 35%;
+}
+
+
+#easy-help {
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    color: white;
+    background-color: #A89F68;
+}
+.verde {
+    color : #A89F68;
+}
+#easy-help .col-md-6 {
+    padding: 4em 0;
+}
+
+
+.container .btn {
+    color: white;
+    background-color: rgb(65, 82, 31);
+
+    border-color: transparent;
+    margin: 2% 3%;
+
+}
+.col-md-6 >div >img {
+    border: 15px solid white;
+}
+
+#help-koala{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: url(../docs/img/all.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+#help-koala .container .row {
+    width: 25%;
+    position: absolute;
+    top: 14%;
+    right: 24%;
+}
+h1, h2, h3 {
+    font-weight: 700;
+    color: #A89F68;
+}
+#donate {
+    color:  #A89F68;
+}
+.carousel-inner .item img {
+    width: 0%;
+    max-height: 550px;
+    margin: 0 auto;
+    max-width: 50%;
+
+}
+
+.carousel-inner .item  {
+    max-height: 550px;
+    margin: 0 auto;
+    max-width: 100%;
+
+}
+#donation-today {
+    background-color: #A89F68;
+}
+#donation-today > .container > .text-center  {
+    margin: 5%;
+}
+#donation-today .col-md-4 h1 {
+    color: white;
+    font-size: 9em;
+
+}
+#donation-today .col-md-4 h1:after {
+    content: "/aud";
+    font-size: 27%;
     text-transform: uppercase;
-    font-weight: bold;
+
 }
-
-.action {
-    top: 45%;
-    position: relative;
-    height: 40%;
-    width: 26%;
-    margin: 2%
+#donation-today .col-md-4 h1:before {
+    font-size: 37%;
+    content: '$';
+    position: absolute;
+    left: 12%;
 }
-
-.foundation {
-    height: 800px;
-    width: 100%;
+.item > img {
+    max-height: 550px;
+    margin: 0 auto;
+    height: auto;
+    max-width: 100%;
 }
-
-.col-md-2 img {
-    height: 50%;
-    top: 5%;
-    left: 6%;
-    padding: 4%;
-    display: inline-block;
+footer .col-xs-12 p {
+    color: white;
 }
-
-.col-md-2 div {
-    display: inline-block;
-    right: 0px;
-    height: 50%;
-    color: black;
-    top: 5%;
-    left: 6%;
-    padding: 4%;
-}
-
-.segundo {
-    right: 0px;
-    align-content: flex-end
-}
-
-.col-md-2 {}
-
-.easy-help {
-    position: relative;
-    background-color: #A89F68;
-    width: 100%;
-    height: 500px;
-}
-
-.figuras {
-    width: 100%;
-    height: 500px;
-}
-
-.donate {
-    background-color: #A89F68;
-    width: 100%;
-    height: 800px;
-}
-
 footer {
-    width: 100%;
-    height: 200px;
+    color: #fff;
     background-color: #41521F;
-    ;
+    padding: 5em 0 2em;
+}
+footer h4 {
+    color: #A89F68;
+    font-weight: 700;
+}
+footer li {
+    list-style: none;
+
+}
+#donate p,#donate p a{
+    color: rgba(0, 0, 0, 0.53);
+    font-weight: bolder;
+}
+footer li a {
+    color: #A89F68;
+
+}
+#koala .navbar-inverse {
+    background-color: rgba(34, 34, 34, 0);
+    border-color: rgba(34, 34, 34, 0);
+}
+#koala .navbar-inverse .navbar-brand {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    margin-left: 3%;
+
+}
+#koala .navbar-inverse ul li a{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+
 }
